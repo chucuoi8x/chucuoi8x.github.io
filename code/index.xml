@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Codes on Chucuoi&#39;s Blog</title>
+    <link>https://chucuoi8x.github.io/code/</link>
+    <description>Recent content in Codes on Chucuoi&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 28 Feb 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://chucuoi8x.github.io/code/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hướng dẫn tạo web tĩnh - trang cá nhân trên Github</title>
+      <link>https://chucuoi8x.github.io/code/huong-dan-tao-web-tinh-tren-github/</link>
+      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://chucuoi8x.github.io/code/huong-dan-tao-web-tinh-tren-github/</guid>
+      <description>Nói đến trang web các nhân, mọi người hay nghĩ đến các trang blog cá nhân, và nghĩ đến các Opensource CMS (Content Managenment System, hệ thống quản lý và xuất bản bài viết có mã nguồn mở)
+CMS thường sẽ gồm 2 phần, phần Admin để bạn quản lý cơ sở dữ liệu backend (các bài viết, comment, media, ảnh&amp;hellip;) và phần frontend là trang clent (trang chủ) được publish (đăng lên) các nội dung bài viết từ admin cho người dùng đọc.</description>
+    </item>
+    
+    <item>
+      <title>Installing Bilberry Theme</title>
+      <link>https://chucuoi8x.github.io/code/installing-bilberry-theme/</link>
+      <pubDate>Wed, 01 Nov 2017 09:31:27 +0100</pubDate>
+      
+      <guid>https://chucuoi8x.github.io/code/installing-bilberry-theme/</guid>
+      <description>&lt;p&gt;You will find all information to setup this theme with your hugo site
+on the official &lt;br&gt; &lt;a href=&#34;https://github.com/Lednerb/bilberry-hugo-theme&#34;&gt;Github Repository&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

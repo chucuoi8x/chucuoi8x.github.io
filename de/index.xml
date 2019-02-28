@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog của Chucuoi</title>
+    <link>https://chucuoi8x.github.io/de/</link>
+    <description>Recent content on Blog của Chucuoi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 01 Nov 2017 13:18:45 +0100</lastBuildDate>
+    
+        <atom:link href="https://chucuoi8x.github.io/de/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>
