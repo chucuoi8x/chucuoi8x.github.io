@@ -5,10 +5,21 @@
     <link>https://chucuoi8x.github.io/author/nguy%E1%BB%85n-h%E1%BB%93ng-linh/</link>
     <description>Recent content in Nguyễn Hồng Linh on Chucuoi&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 28 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 02 Mar 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://chucuoi8x.github.io/author/nguy%E1%BB%85n-h%E1%BB%93ng-linh/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Cách sử dụng git và thao tác trên Github</title>
+      <link>https://chucuoi8x.github.io/code/cach-su-dung-git/</link>
+      <pubDate>Sat, 02 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://chucuoi8x.github.io/code/cach-su-dung-git/</guid>
+      <description>Fork, Clone Mở website github, tìm đến project cần dùng và nhấn nút Fork ở phía trên bên phải của website để tạo 1 sub-project của project cha, nó là project mới trong github cá nhân của bạn. (Nếu project đã ở trong github cá nhân của bạn thì bạn không cần làm bước này)
+Để tải code xuống máy, bạn có thể làm như sau:
+ Nhấn vào nút Clone or download.</description>
+    </item>
     
     <item>
       <title>Hướng dẫn tạo web tĩnh - trang cá nhân trên Github</title>

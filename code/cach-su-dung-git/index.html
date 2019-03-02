@@ -7,21 +7,19 @@
         <meta name="description" content="Bilberry Premium Theme for Hugo.">
         <meta name="keywords" content="blog,personal,responsive,search,font awesome,pages,posts,multilingual,highlight.js,syntax highlighting,premium,shortcuts">
         <meta name="generator" content="Hugo 0.47.1" />
-        <title> Nguyễn Hồng Linh | Chucuoi&#39;s Blog</title>
-        <meta name="description" content="Nguyễn Hồng Linh - Bilberry Premium Theme for Hugo.">
-        <meta itemprop="name" content="Nguyễn Hồng Linh">
-        <meta itemprop="description" content="Nguyễn Hồng Linh - Bilberry Premium Theme for Hugo.">
-        <meta property="og:title" content="Nguyễn Hồng Linh">
-        <meta property="og:description" content="Nguyễn Hồng Linh - Bilberry Premium Theme for Hugo.">
+        <title> Cách sử dụng git và thao tác trên Github | Chucuoi&#39;s Blog</title>
+        <meta name="description" content="Cách sử dụng git và thao tác trên Github - Bilberry Premium Theme for Hugo.">
+        <meta itemprop="name" content="Cách sử dụng git và thao tác trên Github">
+        <meta itemprop="description" content="Cách sử dụng git và thao tác trên Github - Bilberry Premium Theme for Hugo.">
+        <meta property="og:title" content="Cách sử dụng git và thao tác trên Github">
+        <meta property="og:description" content="Cách sử dụng git và thao tác trên Github - Bilberry Premium Theme for Hugo.">
         <meta property="og:image" content="https://www.gravatar.com/avatar/88188b6cc451928eba90e8400bc68086?size=200">
-        <meta property="og:url" content="https://chucuoi8x.github.io/author/nguy%E1%BB%85n-h%E1%BB%93ng-linh/">
-        <meta property="og:site_name" content="Chucuoi&#39;s Blog"><meta property="og:type" content="website">
+        <meta property="og:url" content="https://chucuoi8x.github.io/code/cach-su-dung-git/">
+        <meta property="og:site_name" content="Chucuoi&#39;s Blog">
+        <meta property="og:type" content="article">
         <link rel="icon" type="image/png" href="https://chucuoi8x.github.io/favicon-32x32.png" sizes="32x32">
         <link rel="icon" type="image/png" href="https://chucuoi8x.github.io/favicon-16x16.png" sizes="16x16">
 
-	
-	  <link href="https://chucuoi8x.github.io/author/nguy%E1%BB%85n-h%E1%BB%93ng-linh/index.xml" rel="alternate" type="application/rss+xml" title="Chucuoi&#39;s Blog" />
-	  <link href="https://chucuoi8x.github.io/author/nguy%E1%BB%85n-h%E1%BB%93ng-linh/index.xml" rel="feed" type="application/rss+xml" title="Chucuoi&#39;s Blog" />
 	
 
         
@@ -94,11 +92,10 @@
 
         <div class="main container">
             
-    
-    
-        <div class="article-wrapper u-cf">
-            
-                <a class="bubble" href="/code/cach-su-dung-git/">
+     
+    <div class="article-wrapper u-cf single">
+        
+            <a class="bubble" href="/code/cach-su-dung-git/">
     <i class="fa fa-fw fa-code"></i>
 </a>
 
@@ -124,13 +121,68 @@
     </div>
 
     
-        Fork, Clone Mở website github, tìm đến project cần dùng và nhấn nút Fork ở phía trên bên phải của website để tạo 1 sub-project của project cha, nó là project mới trong github cá nhân của bạn. (Nếu project đã ở trong github cá nhân của bạn thì bạn không cần làm bước này)
-Để tải code xuống máy, bạn có thể làm như sau:
- Nhấn vào nút Clone or download.
+        
 
-        
-            <a href="/code/cach-su-dung-git/" class="more">Continue reading</a>
-        
+<h2 id="fork-clone">Fork, Clone</h2>
+
+<p>Mở website github, tìm đến project cần dùng và nhấn nút Fork ở phía trên bên phải của website để tạo 1 sub-project của project cha, nó là project mới trong github cá nhân của bạn. (Nếu project đã ở trong github cá nhân của bạn thì bạn không cần làm bước này)</p>
+
+<p><img src="https://images.viblo.asia/c6ece143-ea47-4c8d-b2fc-1f36d105c136.png" alt="alt" /></p>
+
+<p>Để tải code xuống máy, bạn có thể làm như sau:</p>
+
+<ul>
+<li>Nhấn vào nút Clone or download.<br /></li>
+<li>Bạn copy đường dẫn <code>html://github.com/....</code><br /></li>
+<li>Mở terminal và trỏ đến thư mục muốn lưu project và gõ lệnh sau:<br /></li>
+</ul>
+
+<pre><code class="language-git">git clone &lt;link bạn đã copy ở trên&gt;
+</code></pre>
+
+<h2 id="kiểm-tra-remotes">Kiểm tra remotes</h2>
+
+<p>Đầu tiên, di chuyển đến thư mục project và kiểm tra lại danh sách các remote hiện tại</p>
+
+<pre><code class="language-git">git remote -v
+
+==&gt;
+origin &lt;link&gt; (fetch)
+origin &lt;link&gt; (push)
+</code></pre>
+
+<h2 id="code">Code</h2>
+
+<p>Sau khi bạn code, bạn có thể  tạo commit cho branch bằng lệnh sau:</p>
+
+<pre><code class="language-git">git commit -m &quot;&lt;nội dung commit&gt;&quot;
+</code></pre>
+
+<p>Gõ lệnh để kiểm tra các file thay đổi đã được commit hết chưa:</p>
+
+<pre><code class="language-git">git status
+</code></pre>
+
+<p>Nếu còn file chưa được commit thì phải gõ lệnh sau: Add toàn bộ file vào commit hiện tại:</p>
+
+<pre><code class="language-git">git add -A
+</code></pre>
+
+<p>Sau khi add tất cả các file xong thì tiến hành commit bằng lệnh</p>
+
+<pre><code class="language-git">git commit -m &lt;nội dung commit&gt;
+</code></pre>
+
+<h2 id="push-lên-github">Push lên github</h2>
+
+<p>Sau khi đã commit tất cả những thay đổi thì bạn có thể đẩy nó lên github để lưu thay đổi trên github bằng lệnh sau:
+&gt; Đẩy code vào branch master</p>
+
+<pre><code class="language-git">git push -u origin master
+</code></pre>
+
+<p>Như vậy là bạn đã tạo được 1 project của mình được lưu trữ trên github rồi.</p>
+
     
 </div>
 
@@ -156,82 +208,33 @@
 
 </article>
 
-            
-        </div>
-    
-        <div class="article-wrapper u-cf">
-            
-                <a class="bubble" href="/code/huong-dan-tao-web-tinh-tren-github/">
-    <i class="fa fa-fw fa-code"></i>
-</a>
-
-<article class="default article">
-    
-
-    <div class="content">
-    <h3><a href="/code/huong-dan-tao-web-tinh-tren-github/">Hướng dẫn tạo web tĩnh - trang cá nhân trên Github</a></h3>
-    <div class="meta">
-        
-            
-                <span class="date">2019-02-28</span>
-            
-        
-
-        
-
-        
-
-        
-            <span class="author"><a href="/author/nguy%E1%BB%85n-h%E1%BB%93ng-linh">Nguyễn Hồng Linh</a></span>
         
     </div>
 
     
-        Nói đến trang web các nhân, mọi người hay nghĩ đến các trang blog cá nhân, và nghĩ đến các Opensource CMS (Content Managenment System, hệ thống quản lý và xuất bản bài viết có mã nguồn mở)
-CMS thường sẽ gồm 2 phần, phần Admin để bạn quản lý cơ sở dữ liệu backend (các bài viết, comment, media, ảnh&hellip;) và phần frontend là trang clent (trang chủ) được publish (đăng lên) các nội dung bài viết từ admin cho người dùng đọc.
-
-        
-            <a href="/code/huong-dan-tao-web-tinh-tren-github/" class="more">Continue reading</a>
-        
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
     
-</div>
-
     
-<div class="footer">
-
-
     
-        <div class="tags">
-            <i class="fa fa-tags"></i>
-            <div class="links">
-                
-                    <a href="/tags/web">Web</a>
-                
-                    <a href="/tags/theme">Theme</a>
-                
-                    <a href="/tags/hugo">Hugo</a>
-                
-            </div>
-        </div>
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "bilberry-hugo-theme" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
     
 
-    
-</div>
-
-</article>
-
-            
-        </div>
-    
-
-    
-    <div class="paginator">
-        
-
-        
-    </div>
-
-
+     
 
         </div>
 
@@ -296,8 +299,7 @@ CMS thường sẽ gồm 2 phần, phần Admin để bạn quản lý cơ sở 
                 
                 by Linh Nguyen
             </a>
-	    -
-		<a href="https://chucuoi8x.github.io/author/nguy%E1%BB%85n-h%E1%BB%93ng-linh/index.xml">RSS</a>
+	    
         </div>
         <div class="author">
             <a href="https://github.com/Lednerb/bilberry-hugo-theme" target="_blank">Bilberry Hugo Theme</a>
